@@ -6,7 +6,7 @@ body {
 .intro {
     height: 450px;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.788)), url(./images/donation.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 0.801)), url(./images/donation.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
@@ -17,6 +17,7 @@ body {
 
 .intro-text {
     color: white;
+    font-weight: 500;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
