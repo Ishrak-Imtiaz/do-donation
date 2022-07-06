@@ -34,7 +34,7 @@ h1 {
 .donate-btn {
     text-align: center;
     text-decoration: none;
-    background-image: linear-gradient(tomato, rgb(226, 41, 9));
+    background-image: linear-gradient(rgb(240, 116, 94), rgb(226, 41, 9));
     padding: 10px 30px;
     border-radius: 5px;
     color: white;
@@ -87,4 +87,104 @@ h2 {
     border-left: 0px;
     margin-bottom: 40px;
     margin-top: 20px;
+    outline: none;
+}
+
+.donation-plan {
+    margin: 50px 0px;
+    padding: 10px 8%;
+}
+
+.plan-text {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.plan-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.card-1 {
+    text-align: left;
+    margin: 5px 15px;
+    padding: 20px;
+    padding-left: 20px;
+    background-color: rgba(153, 150, 150, 0.473);
+
+}
+
+.card-2 {
+    text-align: left;
+    margin: 5px 15px;
+    padding: 20px;
+    padding-left: 20px;
+    background-color: rgba(255, 192, 203, 0.486);
+}
+
+.card-3 {
+    text-align: left;
+    margin: 5px 15px;
+    padding: 20px;
+    padding-left: 20px;
+    background-color: rgba(216, 216, 123, 0.664);
+}
+
+.card-3 img {
+    height: 53px;
+    width: 53px;
+}
+
+.contribution-1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 7%;
+    margin-right: 2%;
+}
+
+.contribution-text1 {
+    width: 50%;
+    padding: 10px;
+}
+
+.contribution-image1 img {
+    width: 80%;
+    height: 400px;
+    padding: 30px;
+    padding-top: 45px;
+    padding-right: 20px;
+}
+
+.contribute-btn {
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(240, 116, 94), rgb(226, 41, 9));
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 700;
+    margin-top: 40px;
+}
+
+.contribution-2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 7%;
+    margin-right: 2%;
+}
+
+.contribution-text2 {
+    width: 50%;
+    padding: 10px;
+    padding-right: 40px;
+}
+
+.contribution-image2 img {
+    width: 80%;
+    height: 400px;
+    padding: 20px;
+    padding-top: 45px;
+    padding-right: 20px;
 }
